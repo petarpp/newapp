@@ -13,4 +13,5 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     assert_select "title", full_title("Contact")
     
   end
+  
 end
